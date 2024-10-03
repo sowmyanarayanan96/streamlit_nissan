@@ -70,12 +70,8 @@ st.markdown("""
 # Top navigation bar
 st.markdown("""
     <div class="navbar">
-        <h1>NISSAN Motor Corporation</h1>
-        <div>
-            <button>Custom Date Range</button>
-            <button>Filter</button>
-            <button>MA</button>
-        </div>
+        <h1></h1>
+        
     </div>
 """, unsafe_allow_html=True)
 

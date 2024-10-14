@@ -19,15 +19,7 @@ st.markdown("""
     .main-container {
         padding: 0;
     }
-    .navbar {
-        background-color: #002855;
-        color: white;
-        padding: 10px;
-        font-family: 'Arial', sans-serif;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    
     .navbar h1 {
         margin: 0;
         padding: 0;

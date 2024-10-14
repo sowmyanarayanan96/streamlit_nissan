@@ -92,7 +92,7 @@ with st.sidebar:
     st.write("Settings")
 
 # Header Title
-st.title("SRN - Supplier Risk Navigator System")
+st.title("SRN - WRAPS Dashboard")
 
 # def fetch_regions():
 

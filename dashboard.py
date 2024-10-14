@@ -9,6 +9,13 @@ st.set_page_config(layout='wide')
 # CSS for custom styling including navbar
 st.markdown("""
     <style>
+        .stAppHeader {
+        background-color: #09355D; /* Change this to your preferred color */
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        padding: 40px;
+    }
     .main-container {
         padding: 0;
     }
@@ -208,11 +215,24 @@ with col2:
     fig3 = px.pie(issue_category_data, names="Category", values="Issue Count", title="Top Issue Category")
     st.plotly_chart(fig3, use_container_width=True)
 
-# Root Cause Analysis - Progress Bars
-st.markdown("### Root Cause Analysis")
-st.write("Weakened Tab in Sunvisor Clip")
-st.progress(0.95)
-st.write("Lamp assy-rr comb, RH with Dim Light")
-st.progress(0.92)
-st.write("Wrong Emblem")
-st.progress(0.89)
+
+# # Root Cause Analysis - Progress Bars
+# st.markdown("### Root Cause Analysis")
+# st.write("Weakened Tab in Sunvisor Clip")
+# st.progress(0.95)
+# st.write("Lamp assy-rr comb, RH with Dim Light")
+# st.progress(0.92)
+# st.write("Wrong Emblem")
+# st.progress(0.89)
+
+col1,col2 = st.columns(2)
+
+with col1:
+    # Root Cause Analysis - Progress Bars
+    st.markdown("### Root Cause Analysis")
+    st.write("Weakened Tab in Sunvisor Clip")
+    st.progress(0.95)
+    st.write("Lamp assy-rr comb, RH with Dim Light")
+    st.progress(0.92)
+    st.write("Wrong Emblem")
+    st.progress(0.89)
